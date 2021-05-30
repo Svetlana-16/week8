@@ -1,0 +1,44 @@
+.wrapper {
+    display: grid;
+    grid-template-rows: 1fr 4fr 2fr 2fr;
+    grid-template-columns: 6fr 5fr;
+    grid-template-areas: 
+    'g t'
+    'g b'
+    'd d'
+    'r r';
+    grid-gap: 10px;
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: 2vw;
+    
+    
+    height: 100vh;
+}
+.gall {
+    grid-area: g;
+    background-color: blue;
+    color: white;
+    align-items: center;
+    vertical-align: middle
+}
+.title {
+    grid-area: t;
+    background-color: blue;
+    color: white;
+}
+.buy {
+    grid-area: b;
+    background-color: blue;
+    color: white;
+}
+.desc {
+    grid-area: d;
+    background-color: blue;
+    color: white;
+}
+.relat {
+    grid-area: r;
+    background-color: blue;
+    color: white;
+}
